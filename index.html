@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VectorAssured — Coming Soon</title>
+  <meta name="description" content="VectorAssured is launching soon.">
+  <meta name="theme-color" content="#0b1020">
+  <meta property="og:title" content="VectorAssured — Coming Soon">
+  <meta property="og:description" content="VectorAssured is launching soon.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="grid" aria-hidden="true"></div>
+  <div class="glow" aria-hidden="true"></div>
+
+  <main class="wrap">
+    <div class="brand">
+      <svg class="logo" viewBox="0 0 48 48" aria-hidden="true">
+        <defs>
+          <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#7c9cff"/>
+            <stop offset="1" stop-color="#36e0c2"/>
+          </linearGradient>
+        </defs>
+        <path d="M24 3 42 10v13c0 11-7.6 19.4-18 22C13.6 42.4 6 34 6 23V10L24 3Z" fill="none" stroke="url(#g)" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M15 18l9 14 9-14" fill="none" stroke="url(#g)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="name">Vector<span>Assured</span></span>
+    </div>
+
+    <p class="badge"><span class="dot"></span> Launching soon</p>
+
+    <h1>Something <em>assured</em><br>is on its way.</h1>
+
+    <p class="lead">
+      We're putting the finishing touches on VectorAssured.
+      Check back soon — it'll be worth the wait.
+    </p>
+
+    <div class="progress" role="progressbar" aria-label="Build progress" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+      <div class="bar"></div>
+    </div>
+  </main>
+
+  <footer>&copy; <span id="y">2026</span> VectorAssured. All rights reserved.</footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
